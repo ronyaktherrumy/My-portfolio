@@ -1,5 +1,30 @@
 .navi{
     position: fixed;
     top: 0;
-  
+
 }
+
+.icon{
+    font-size: 40px;
+   
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(104, 102, 96);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  #myBtn:hover {
+    background-color:#555;
+  }
