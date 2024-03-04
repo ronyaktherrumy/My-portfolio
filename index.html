@@ -63,10 +63,10 @@
 
     <!-- ------------hero section start here --------------->
     <div class="hero lg:min-h-screen">
-      <div class="hero-content flex-col lg:flex-row-reverse md:mt-80 lg:mt-0">
+      <div class="hero-content flex-col lg:flex-row-reverse">
         <img
           src="./images/close-up-portrait-nice-cute-adorable-smiling-charming-cheerful-girl-pointing-with-her-index-finger.jpg"
-          class="max-w-xs rounded-xl shadow-5xl border-2 border-white"
+          class="max-w-xs rounded-xl shadow-5xl border-2 border-white mt-20 lg:mt-0"
           data-aos="fade-right"
           data-aos-offset="300"
           data-aos-easing="ease-in-sine"
@@ -137,7 +137,7 @@
               of the 1500+ FontAwesome 5 free icons available.
             </p>
             <a href="./contact.html">
-              <h3 class="text-orange-500">
+              <h3 class="hover:underline underline-offset-1">
                 Say hi <i class="fa-solid fa-arrow-right-from-bracket"></i></h3
             ></a>
             <div class="card-actions"></div>
@@ -186,7 +186,7 @@
               of the 1500+ FontAwesome 5 free icons available.
             </p>
             <a href="./contact.html">
-              <h3 class="text-orange-500">
+              <h3 class="hover:underline underline-offset-1">
                 Say hi <i class="fa-solid fa-arrow-right-from-bracket"></i>
               </h3>
             </a>
@@ -207,7 +207,7 @@
       <div class="flex flex-col lg:flex-row items-center justify-center gap-8">
         <div class="mt-10">
           <div
-            class="card w-96 bg-base-300 shadow-xl mb-8"
+            class="card w-72 lg:w-96 bg-base-300 shadow-xl mb-8"
             data-aos="fade-right"
             data-aos-duration="2000"
           >
@@ -225,7 +225,7 @@
             </div>
           </div>
           <div
-            class="card w-96 bg-base-300 shadow-xl"
+            class="card w-72 lg:w-96 bg-base-300 shadow-xl"
             data-aos="fade-right"
             data-aos-duration="2000"
           >
@@ -244,7 +244,7 @@
         </div>
         <div class="mt-10">
           <div
-            class="card w-96 bg-base-300 shadow-xl mb-8"
+            class="card w-72 lg:w-96 bg-base-300 shadow-xl mb-8"
             data-aos="fade-left"
             data-aos-duration="2000"
           >
@@ -261,7 +261,7 @@
             </div>
           </div>
           <div
-            class="card w-96 bg-base-300 shadow-xl"
+            class="card w-72 lg:w-96 bg-base-300 shadow-xl"
             data-aos="fade-left"
             data-aos-duration="2000"
           >
@@ -291,14 +291,14 @@
 
     <!-- top butonn -->
 
-    <button
-      class="text-amber-500"
+    <!-- <button
+      class="text-amber-500 hidden"
       onclick="topFunction()"
       id="myBtn"
       title="Go to top"
     >
       Top <i class="fa-solid fa-arrow-up-a-z text-amber-500"></i> 
-    </button>
+    </button> -->
     <!------------- contact section start here ---------------->
 
     <div class="bg-gray-900">
@@ -375,7 +375,9 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
-      AOS.init();
+      AOS.init({
+        once: true,
+      });
     </script>
 
     <!-- top buttonn  -->

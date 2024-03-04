@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
     <link rel="icon" type="img" href="./images/Snapchat-1874219211.jpg" />
-<!-- -------------style css ---------------->
-<link rel="stylesheet" href="style.css" />
-<!-- -------------tailwind & daysi ---------------->
-<link
-  href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css"
-  rel="stylesheet"
-  type="text/css"
-/>
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- AOS  -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- -------------style css ---------------->
+    <link rel="stylesheet" href="style.css" />
+    <!-- -------------tailwind & daysi ---------------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-<!-- font awsome cdn  -->
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-/>
-</head>
-<body>
-    
-  
+    <!-- font awsome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <!-------- start here----- -->
 
     <div class="navbar bg-gray-900 navi z-10">
@@ -280,14 +278,14 @@
 
     <!-- top butonn -->
 
-    <button
+    <!-- <button
       class="text-amber-500"
       onclick="topFunction()"
       id="myBtn"
       title="Go to top"
     >
       Top <i class="fa-solid fa-arrow-up-a-z text-amber-500"></i> 
-    </button>
+    </button> -->
     <!------------- contact section start here ---------------->
 
     <div class="bg-gray-900">
@@ -364,7 +362,9 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
-      AOS.init();
+      AOS.init({
+        once: true,
+      });
     </script>
 
     <!-- top buttonn  -->
@@ -394,6 +394,5 @@
         document.documentElement.scrollTop = 0;
       }
     </script>
-  
-</body>
+  </body>
 </html>
